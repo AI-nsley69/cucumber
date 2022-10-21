@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    color: #f8f8ff;
+    background-color: #121212;
+}
+
+body h1 {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    align-items: center;
+}
+
+.for-sale {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: dotted;
+    border-color: #008000;
+    border-radius: 1em;
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    background-color: #1f1b24;
+    padding: 10px;
+}
+
+.for-sale img {
+    order: 0;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.for-sale h1 {
+    order: 1;
+}
+
+.for-sale p {
+    order: 2;
+}
+
+.for-sale button {
+    order: 3;
+    width: auto;
+    height: 1.5em;
+    margin: auto;
+    border: 1.5px solid #b00b69;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.for-sale button:active {
+    background-color: #ff7f50ce;
+}
+
+html {
+    scrollbar-color: dimgrey black;
+    scrollbar-width: thin;
+}
