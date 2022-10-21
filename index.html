@@ -8,26 +8,45 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+    <header>
+        <a href="#login">Login</a>
+    </header>
     <h1>Cucumber pictures for sale</h1>
-    <div class="items">
-        <div class="for-sale">
-            <h3>Sliced Cucumber</h3>
-            <p>slcd cumber piture</p>
-            <img src="./images/cucumber_1.jpg" alt="Mexican bird cucumber picture">
-            <button type="button">Order Now!</button>
+    <main>
+        <div class="items">
+            <div class="for-sale">
+                <h3>Sliced Cucumber</h3>
+                <p>slcd cumber piture</p>
+                <img src="./images/cucumber_1.jpg" alt="Mexican bird cucumber picture">
+                <button type="button">Order Now!</button>
+            </div>
+            <div class="for-sale">
+                <h3>Cucumber Frame</h3>
+                <p>cumber piture frm</p>
+                <img src="./images/cucumber_2.jpg">
+                <button type="button">Order Now!</button>
+            </div>
+            <div class="for-sale">
+                <h3>Planted Cucumber</h3>
+                <p>plntd cumber piture</p>
+                <img src="./images/cucumber_3.jpg">
+                <button type="button">Order Now!</button>
+            </div>
         </div>
-        <div class="for-sale">
-            <h3>Cucumber Frame</h3>
-            <p>cumber piture frm</p>
-            <img src="./images/cucumber_2.jpg">
-            <button type="button">Order Now!</button>
+        
+        <div id="login">
+            <a href="#" class="close" id="login-close"></a>
+            <div id="login-popup">
+                <h2>Wish to login?</h2>
+                <div id="login-form">
+                    <span>username</span><br>
+                    <input type="text" name="username">
+                    <span>password</span><br>
+                    <input type="text" name="password">
+                    <a href="#"><button type="button">Sign In</button></a>
+                </div>
+            </div>
         </div>
-        <div class="for-sale">
-            <h3>Planted Cucumber</h3>
-            <p>plntd cumber piture</p>
-            <img src="./images/cucumber_3.jpg">
-            <button type="button">Order Now!</button>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
