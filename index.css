@@ -121,9 +121,10 @@ header a {
     transform: scale(0.98);
 }
 
-#login-popup a {
+#login-form a {
     text-decoration: none;
     color: #fff;
+    display: contents;
 }
 
 #login-close {
