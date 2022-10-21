@@ -2,15 +2,14 @@ body {
     background-color: #161616;
     margin: 0;
     font-family: "IBM Plex Sans";
-    height: 100vh;
-    width: calc(var(--vw, 1vw) * 100);
+    width: auto;
+    height: auto;
     max-width: 100%;
     padding: 0;
-    overflow-x: hidden;
 }
 
 main {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -22,7 +21,7 @@ header {
     display: block;
     font-size: 20px;
     padding: 0;
-    width: 100%;
+    width: auto;
     height: 1.5em;
     background-color: #121212;
     position: top;
@@ -46,7 +45,7 @@ header input[type=text] {
     border: none;
     border-radius: 5px;
     margin: auto;
-    margin-right: 1.2em;
+    margin-right: 3px;
 }
 
 header a:hover, .for-sale button:hover, #login-popup button:hover {
