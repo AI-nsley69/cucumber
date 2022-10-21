@@ -241,6 +241,13 @@ body h1 {
     height: auto;
     background-color: #1f1b24;
     padding: 10px;
+        animation: rotate-center 1s ease-in-out 2s both;
+    animation: rotate-center 1.5s ease-in-out 0s both;
+}
+
+@keyframes rotate-center {
+    0% { transform: rotate(0) }
+    100% { transform: rotate(360deg) }
 }
 
 .for-sale img {
