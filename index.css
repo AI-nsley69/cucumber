@@ -55,7 +55,7 @@ header a {
     display: block;
     padding: 2em;
     line-height: 1.8;
-    width: 70%;
+    width: 30%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -193,11 +193,11 @@ body h1 {
 }
 
 .for-sale p {
-    order: 2;
+    order: 3;
 }
 
 .for-sale button {
-    order: 3;
+    order: 4;
     width: auto;
     height: 1.5em;
     margin: auto;
@@ -208,6 +208,12 @@ body h1 {
 
 .for-sale button:active {
     background-color: #ff7f50ce;
+}
+
+.for-sale marquee {
+    order: 2;
+    padding-top: 1em;
+    margin: auto;
 }
 
 html {
