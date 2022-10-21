@@ -16,7 +16,7 @@ main {
 }
 
 header {
-    display: flex;
+    display: block;
     font-size: 20px;
     padding: 0;
     width: 100%;
@@ -26,14 +26,24 @@ header {
     top: 0;
     margin: auto;
     padding: 0.5em;
-    justify-content: left;
+    text-align: center;
 }
 
 header a {
+    float: left;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;  
     color: whitesmoke;
+}
+
+header input[type=text] {
+    float: right;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 1.2em;
 }
 
 header a:hover, .for-sale button:hover, #login-popup button:hover {
