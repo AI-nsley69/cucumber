@@ -63,6 +63,8 @@ footer {
     height: 3em;
     background-color: #121212;
     text-align: center;
+    margin-bottom: auto;
+    padding: 8px;
 }
 
 footer h3 {
